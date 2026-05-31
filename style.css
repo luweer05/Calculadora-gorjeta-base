@@ -116,3 +116,8 @@ main {
 .gorjeta #outra::placeholder {
     color: var(--green-300)
 }
+
+.pessoas #erro {
+    display: none;
+   
+}
