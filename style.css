@@ -82,7 +82,6 @@ main {
 .conta:has(input:hover) div,
 .pessoas:has(input:focus) .input-box,
 .pessoas:has(input:hover) .input-box,
-.gorjeta:has(input:hover) div,
 .gorjeta #outra:focus,
 .gorjeta #outra:hover {
     outline: 2px solid var(--light-green);
@@ -95,6 +94,7 @@ main {
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
 }
+
 .gorjeta input {
     font-size: 1.5rem;
     font-weight: 700;
@@ -199,11 +199,6 @@ main {
 
 
 
-
-
-
-
-
 @media (min-width: 920px) {
     
     body {
@@ -219,6 +214,7 @@ main {
     header {
         padding: 0;
     }
+
     main {
         display: flex;
         gap: 3rem;
