@@ -93,3 +93,7 @@ main {
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
 }
+
+.gorjeta #outra {
+    width: 100%;
+}
