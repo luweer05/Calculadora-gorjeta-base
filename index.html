@@ -24,7 +24,7 @@
                     
                     <div>
                         <img src="./images/icon-dollar.svg" alt="Ícone do cifrão">
-                        <input type="number" name="conta" id="conta">
+                        <input type="number" name="conta" id="conta" placeholder="conta">
                     </div>
                 </div>
 
@@ -37,16 +37,19 @@
                         <input type="button" value="15%">
                         <input type="button" value="25%">
                         <input type="button" value="30%">
-                        <input type="number" placeholder="Outra" id="outra">
+                        <input type="number" name="Outra" id="outra" placeholder="Outra">
                     </div>
                 </div>
 
                 <div class="pessoas">
+
+                    <div class="textos">
                     <label for="pessoas">Quantidade de pessoas</label>
                     
                     <p id="erro">Não pode ser zero</p>
+                    </div>
 
-                    <div>
+                    <div class="input-box " id="erro-div">
                         <img src="./images/icon-person.svg" alt="Ícone de pessoa">
                         <input type="number" name="pessoas" id="pessoas" placeholder="0">
                     </div>
@@ -54,10 +57,11 @@
             </form>
         </section>
         
-<section class="gorjeta-total">
+<section class="resultados">
     
   <div>
-      <div class="resultado-gorjeta">
+      <div class="gorjeta-total">
+
         <p>
             <strong>Gorjeta</strong> <br>
             / pessoa
