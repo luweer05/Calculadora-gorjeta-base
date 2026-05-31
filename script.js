@@ -71,9 +71,7 @@ strongTotal.innerHTML =  `R$ ${((conta + (conta * porcentagem)) / pessoas).toFix
     botaoLimpar.addEventListener("click", limpar )
 
    function limpar() {
-    conta = 0
-    pessoas = 0
-    porcentagem = 0
+   
 
     contaInput.value = ""
 
@@ -88,4 +86,9 @@ strongTotal.innerHTML =  `R$ ${((conta + (conta * porcentagem)) / pessoas).toFix
     document.querySelector(".gorjeta-total > strong").innerHTML = 'R$ 0,00'
 
     document.querySelector(".total > strong").innerHTML = 'R$ 0,00'
+
+ conta = 0
+    pessoas = 0
+    porcentagem = 0
+
 }
